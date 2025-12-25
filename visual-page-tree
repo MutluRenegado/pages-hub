@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1400" viewBox="0 0 1200 1400" style="font-family: Arial, Helvetica, sans-serif; background:#f6f1e7">
+  <defs>
+    <style>
+      .box { fill:#ffffff; stroke:#8b6b3e; stroke-width:2; rx:14; ry:14; }
+      .hub { fill:#fff3d6; }
+      .title { font-size:28px; font-weight:bold; fill:#4a3a1a; }
+      .h { font-size:18px; font-weight:bold; fill:#4a3a1a; }
+      .t { font-size:15px; fill:#2b2414; }
+      .line { stroke:#8b6b3e; stroke-width:2; }
+      .link:hover { text-decoration: underline; }
+    </style>
+  </defs>
+
+  <!-- Title -->
+  <text x="600" y="60" text-anchor="middle" class="title">Whispers from History — Visual Page Tree</text>
+
+  <!-- Homepage -->
+  <a href="https://whispersfromhistory.blogspot.com/" target="_blank">
+    <rect x="400" y="90" width="400" height="70" class="box hub" />
+    <text x="600" y="135" text-anchor="middle" class="h link">Homepage</text>
+  </a>
+
+  <!-- Connector lines -->
+  <line x1="600" y1="160" x2="300" y2="260" class="line" />
+  <line x1="600" y1="160" x2="600" y2="260" class="line" />
+  <line x1="600" y1="160" x2="900" y2="260" class="line" />
+
+  <!-- Roman History Hub -->
+  <a href="https://whispersfromhistory.blogspot.com/p/roman-history.html" target="_blank">
+    <rect x="150" y="260" width="300" height="80" class="box hub" />
+    <text x="300" y="310" text-anchor="middle" class="h link">Roman History Hub</text>
+  </a>
+
+  <!-- World History Hub -->
+  <a href="https://whispersfromhistory.blogspot.com/p/world-history.html" target="_blank">
+    <rect x="450" y="260" width="300" height="80" class="box hub" />
+    <text x="600" y="310" text-anchor="middle" class="h link">World History Hub</text>
+  </a>
+
+  <!-- Culture & Myths Hub -->
+  <a href="https://whispersfromhistory.blogspot.com/p/culture-and-myths.html" target="_blank">
+    <rect x="750" y="260" width="300" height="80" class="box hub" />
+    <text x="900" y="310" text-anchor="middle" class="h link">Culture & Myths Hub</text>
+  </a>
+
+  <!-- Roman pillar connectors -->
+  <line x1="300" y1="340" x2="300" y2="420" class="line" />
+  <line x1="300" y1="340" x2="300" y2="510" class="line" />
+  <line x1="300" y1="340" x2="300" y2="600" class="line" />
+  <line x1="300" y1="340" x2="300" y2="690" class="line" />
+
+  <!-- Roman Pillar Pages -->
+  <a href="https://whispersfromhistory.blogspot.com/2025/12/the-rubicon-of-ruin-how-the-roman-republic-collapsed.html" target="_blank">
+    <rect x="120" y="420" width="360" height="70" class="box" />
+    <text x="300" y="463" text-anchor="middle" class="t link">The Rubicon of Ruin</text>
+  </a>
+
+  <a href="https://whispersfromhistory.blogspot.com/2025/12/caesar-wars-the-campaigns-that-reshaped-the-roman-republic.html" target="_blank">
+    <rect x="120" y="510" width="360" height="70" class="box" />
+    <text x="300" y="553" text-anchor="middle" class="t link">Caesar’s Wars</text>
+  </a>
+
+  <a href="https://whispersfromhistory.blogspot.com/2025/12/the-assassination-of-julius-caesar-ides.html" target="_blank">
+    <rect x="120" y="600" width="360" height="70" class="box" />
+    <text x="300" y="643" text-anchor="middle" class="t link">Assassination of Julius Caesar</text>
+  </a>
+
+  <a href="https://whispersfromhistory.blogspot.com/2025/12/legacy-of-julius-caesar.html" target="_blank">
+    <rect x="120" y="690" width="360" height="70" class="box" />
+    <text x="300" y="733" text-anchor="middle" class="t link">Legacy of Julius Caesar</text>
+  </a>
+
+  <!-- World History pages -->
+  <line x1="600" y1="340" x2="600" y2="420" class="line" />
+  <line x1="600" y1="340" x2="600" y2="510" class="line" />
+  <line x1="600" y1="340" x2="600" y2="600" class="line" />
+
+  <a href="https://whispersfromhistory.blogspot.com/2025/10/20-wars-that-changed-course-of-history.html" target="_blank">
+    <rect x="420" y="420" width="360" height="70" class="box" />
+    <text x="600" y="463" text-anchor="middle" class="t link">20 Wars That Changed History</text>
+  </a>
+
+  <a href="https://whispersfromhistory.blogspot.com/2025/09/seven-wonders-of-ancient-world.html" target="_blank">
+    <rect x="420" y="510" width="360" height="70" class="box" />
+    <text x="600" y="553" text-anchor="middle" class="t link">Seven Wonders of the Ancient World</text>
+  </a>
+
+  <a href="https://whispersfromhistory.blogspot.com/2025/09/must-see-historical-places-around-world.html" target="_blank">
+    <rect x="420" y="600" width="360" height="70" class="box" />
+    <text x="600" y="643" text-anchor="middle" class="t link">Must-See Historical Places</text>
+  </a>
+
+  <!-- Culture & Myths pages -->
+  <line x1="900" y1="340" x2="900" y2="420" class="line" />
+  <line x1="900" y1="340" x2="900" y2="510" class="line" />
+  <line x1="900" y1="340" x2="900" y2="600" class="line" />
+
+  <a href="https://whispersfromhistory.blogspot.com/2025/12/echoes-of-wandering-tribes.html" target="_blank">
+    <rect x="720" y="420" width="360" height="70" class="box" />
+    <text x="900" y="463" text-anchor="middle" class="t link">Echoes of Wandering Tribes</text>
+  </a>
+
+  <a href="https://whispersfromhistory.blogspot.com/2024/10/the-phoenix-timeless-tale-of-death.html" target="_blank">
+    <rect x="720" y="510" width="360" height="70" class="box" />
+    <text x="900" y="553" text-anchor="middle" class="t link">The Phoenix</text>
+  </a>
+
+  <a href="https://whispersfromhistory.blogspot.com/2024/08/history-of-istanbul-byzantium-7th.html" target="_blank">
+    <rect x="720" y="600" width="360" height="70" class="box" />
+    <text x="900" y="643" text-anchor="middle" class="t link">History of Istanbul (Byzantium)</text>
+  </a>
+
+</svg>
